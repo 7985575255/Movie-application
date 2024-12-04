@@ -167,7 +167,7 @@ function Login() {
                 </p>
               ) : (
                 <p className="text-white mt-3">
-                  {isLogin ? "New to Netflix?" : "Already have an account?"}
+                  {isLogin ? "New to application?" : "Already have an account?"}
                   <span
                     onClick={loginHandler}
                     className="ml-1 text-blue-400 cursor-pointer"

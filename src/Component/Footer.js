@@ -112,7 +112,7 @@ const Footer = () => {
         </div>
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col sm:flex-row justify-between">
-          <p className="text-sm">© 2024 Netflix Clone. All rights reserved.</p>
+          <p className="text-sm">© 2024 application Clone. All rights reserved.</p>
           <p className="text-sm">Made with ❤️ by Arjun Verma</p>
         </div>
       </div>
