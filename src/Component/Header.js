@@ -40,11 +40,11 @@ function Header() {
   return (
     <div className="absolute z-10 flex w-full items-center justify-between px-4 py-2 bg-gradient-to-b from-black sm:px-6 sm:py-4 ">
       {/* Logo */}
-      <img
+      {/* <img
         className="w-32 mt-2 sm:w-40 sm:mt-4 "
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/799px-Netflix_2015_logo.svg.png"
         alt="Netflix Logo"
-      />
+      /> */}
 
       <div className="md:hidden">
         <button
