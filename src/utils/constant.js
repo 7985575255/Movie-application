@@ -1,4 +1,5 @@
-export const API_END_POINT = "http://192.168.252.10:5000/api/user";
+export const API_END_POINT =
+  "https://movie-application-backend-k15e.onrender.com/api/user";
 // "https://movie-application-backend-k15e.onrender.com/api/user";
 
 export const options = {
