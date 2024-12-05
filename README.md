@@ -34,3 +34,6 @@ This is a movie application with both frontend and backend implemented. Users ca
 
 6. **Password Recovery**:
    - Users can reset their password using the **Forgot Password** feature.
+  
+
+ 

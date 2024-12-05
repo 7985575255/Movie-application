@@ -1,6 +1,6 @@
-import React from 'react';
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
+
 import { useSelector } from 'react-redux';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import Login from './Login';
 import Browser from './Browser';
 
@@ -10,11 +10,11 @@ function Body() {
   const appRouter = createBrowserRouter([
     {
       path: '/',
-      element: user ? <Navigate to="/browser" /> : <Login />,
+      element: !user ? <Login /> : <Navigate to="/browser" replace />,
     },
     {
       path: '/browser',
-      element: user ? <Browser /> : <Navigate to="/" />,
+      element: user ? <Browser /> : <Navigate to="/" replace />,
     },
   ]);
 
