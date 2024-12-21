@@ -40,11 +40,13 @@ function Header() {
   return (
     <div className="absolute z-10 flex w-full items-center justify-between px-4 py-2 bg-gradient-to-b from-black sm:px-6 sm:py-4 ">
       {/* Logo */}
-      <img
-        className="w-32 mt-2 sm:w-40 sm:mt-4 "
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/799px-Netflix_2015_logo.svg.png"
-        alt="Netflix Logo"
-      />
+      {/* <img
+        className="w-32 mt-2 sm:w-40 sm:mt-4"
+        src="https://cdn.dribbble.com/users/231139/screenshots/2026148/movie-app-icon-2.png"
+        alt="Logo"
+      /> */}
+
+      <h1 className="text-4xl bg-none text-red-700 font-bold"> Movie Application</h1>
 
       <div className="md:hidden">
         <button

@@ -1,5 +1,6 @@
-export const API_END_POINT =
-  "https://movie-application-backend-k15e.onrender.com/api/user";
+export const API_END_POINT = "https://movie-application-backend-k15e.onrender.com/api/user";
+//"http://localhost:5000/api/user"
+ 
 // "https://movie-application-backend-k15e.onrender.com/api/user";
 
 export const options = {

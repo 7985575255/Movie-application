@@ -9,7 +9,7 @@ import { setUser, setLoading } from "../redux/userSlice";
 
 function Login() {
   const [isLogin, setIsLogin] = useState(true);
-  const [isForgotPassword, setIsForgotPassword] = useState(false); // State for "Forgot Password" mode
+  const [isForgotPassword, setIsForgotPassword] = useState(false); 
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -19,12 +19,12 @@ function Login() {
 
   const loginHandler = () => {
     setIsLogin(!isLogin);
-    setIsForgotPassword(false); // Reset forgot password state when switching between login and signup
+    setIsForgotPassword(false); 
   };
 
   const forgotPasswordHandler = () => {
-    setIsForgotPassword(true); // Switch to forgot password mode
-    setIsLogin(false); // Hide login/signup form fields
+    setIsForgotPassword(true); 
+    setIsLogin(false); 
   };
 
   const getInputData = async (e) => {
@@ -32,7 +32,7 @@ function Login() {
     dispatch(setLoading(true));
 
     if (isForgotPassword) {
-      // Handle forgot password logic (you can add your backend logic here)
+     
       const user = { email };
       try {
         const res = await axios.post(`${API_END_POINT}/forgot-password`, user, {
@@ -103,7 +103,7 @@ function Login() {
       <div className="absolute">
         <img
           className="w-[100vw] h-[100vh] object-cover "
-          src="https://wallpapers.com/images/high/netflix-background-gs7hjuwvv2g0e9fj.webp"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpA-P39HQThN3nu1kAQzE54R582smNrJuMGieViy2zsIfj2HZhsz8t1KyPrkJT4a2ODm4&usqp=CAU"
           alt="background-image"
         />
       </div>
